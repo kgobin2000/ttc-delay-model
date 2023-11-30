@@ -9,13 +9,15 @@ The TTC Delay Model is a data-driven project aimed at predicting subway delays u
 - **Data Cleaning**: The `data_cleaner.py` script transforms raw TTC delay data into a clean, usable format for model training.
 - **Model Training**: The `train_model.py` script uses a neural network regression approach to train the model on the 2023 TTC subway delay data.
 - **Prediction**: The `predict_delay.py` script allows users to input new data and receive delay predictions.
+- **Data Scaling**: `scaler.pkl` is a serialized scaler object ensuring consistent data scaling for both training and prediction phases.
+- **Model Parameters**: `model_state_dict.pth` contains the trained neural network's parameters, allowing for quick loading and prediction without retraining.
 
 ## Technology Stack
 
 - Python
 - PyTorch (for neural network implementation)
 - Pandas (for data manipulation)
-- Other relevant libraries and frameworks
+- Scikit-learn
 
 ## Getting Started
 
